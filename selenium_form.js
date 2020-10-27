@@ -31,4 +31,4 @@ it ('login', () => {
     cy.get('[class ="icon-2x icon-signout"]').click()
 
     cy.get('[id="flash"]').contains('You logged out of the secure area!').should('exist')
-  }) 
+  }) git
